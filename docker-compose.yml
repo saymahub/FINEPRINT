@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: fineprint_db
+    environment:
+      POSTGRES_USER: fineprint
+      POSTGRES_PASSWORD: fineprint_dev
+      POSTGRES_DB: fineprint
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
