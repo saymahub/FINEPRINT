@@ -1,0 +1,47 @@
+# front end
+**/node_modules/
+dist/
+build/
+.vite/
+ 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+ 
+*.tsbuildinfo
+
+.vite/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# .net
+**/bin/
+**/obj/Debug
+**/out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+_ReSharper*/
+*.DotSettings.user
+ 
+# nuget
+# **/packages/
+# !**/packages/build/
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# docker
+docker-compose.override.yml
+
+# db
+pgdata/
+*.sql.bak

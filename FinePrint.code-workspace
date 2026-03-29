@@ -1,0 +1,10 @@
+{
+  "folders": [
+    { "name": "Backend", "path": "FinePrint.Api" },
+    { "name": "Frontend", "path": "frontend" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "ts.preferences.importModuleSpecifier": "relative"
+  }
+}
