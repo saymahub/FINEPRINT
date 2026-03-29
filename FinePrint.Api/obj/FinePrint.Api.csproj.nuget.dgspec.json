@@ -52,6 +52,12 @@
               "target": "Package",
               "version": "[10.0.5, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
             "Microsoft.Extensions.AI.OpenAI": {
               "target": "Package",
               "version": "[10.4.1, )"

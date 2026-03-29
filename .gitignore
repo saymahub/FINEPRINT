@@ -38,6 +38,7 @@ _ReSharper*/
 project.lock.json
 project.fragment.lock.json
 artifacts/
+project.nuget.cache
 
 # docker
 docker-compose.override.yml
@@ -45,3 +46,4 @@ docker-compose.override.yml
 # db
 pgdata/
 *.sql.bak
+FinePrint.Api/obj/project.nuget.cache
