@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Inktype';
+  src: url('./Inktype.otf') format('opentype'),
+       url('./Inktype_Ttf.ttf') format('truetype');
+}

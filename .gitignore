@@ -3,6 +3,8 @@
 dist/
 build/
 .vite/
+
+quill-site.txt
  
 npm-debug.log*
 yarn-debug.log*
